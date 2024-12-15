@@ -26,7 +26,7 @@ The source of the data is: https://www.kaggle.com/datasets/fedesoriano/stroke-pr
 
 ![Google Image](https://sp-uploads.s3.amazonaws.com/uploads%2Fservices%2F5709757%2F20221201174855_6388e907c4342_stroke_prediction_presentationpage0.jpg)
 
-INTRODUCTION:
+# INTRODUCTION:
 
 Stroke is a serious medical condition that occurs when the blood supply to a part of the brain is interrupted, resulting in tissue damage and neurological impairment. According to (World Stroke Organisation, 2023), around one-fourth of adults above 25 years of age will experience a stroke at least once during their lifetime. The current year is estimated to witness 12.2 million first-time stroke cases globally, with a resulting death toll of 6.5 million. Early diagnosis and treatment of stroke can reduce the risk of complications and improve the chances of recovery. However, predicting the occurrence and outcome of stroke is challenging due to the complexity and variability of stroke etiology, pathophysiology, and clinical presentation.
 
@@ -35,12 +35,12 @@ OBJECTIVE:
 This project aims to investigate the effectiveness of SVM Model algorithms for the prediction of stroke.
 
 
-DATASET & SOURCE :
+# DATASET & SOURCE :
 
 The data used for this project was gotten from Kaggle via this link  https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data. The dataset consists of 5110 observations and 12 features that includes a binary target variable. That is, 12 independent variables will be used to predict the dependent variable. 
 
 
-METHODOLOGY :
+# METHODOLOGY :
 
 EDA (Exploratory Data Analysis):
 
@@ -70,7 +70,7 @@ The best way to understand the structure of a data is through visualization. Thi
 
 ![Description](./Images/BMI_STROKE.png)
 
-Observations:
+# Observations:
 
 1. 95% of population does not prone to stroke as per the dataset .
 
