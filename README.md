@@ -20,3 +20,10 @@ Goals:
  
  
 The source of the data is: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data
+
+
+![Google Image](https://sp-uploads.s3.amazonaws.com/uploads%2Fservices%2F5709757%2F20221201174855_6388e907c4342_stroke_prediction_presentationpage0.jpg)
+
+
+
+
