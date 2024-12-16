@@ -44,7 +44,10 @@ The data used for this project was gotten from Kaggle via this link  https://www
 
 EDA (Exploratory Data Analysis):
 
- **ADD PICTURES For FLOW DIAGRAM**
+# Process flow
+ 
+![Description](./Images/Process_flow.png)
+
 
 The best way to understand the structure of a data is through visualization. This will help identify obvious errors, as well as better understand patterns within the data, detect outliers, find interesting relations among the variables. . Also, age, BMI, average glucose level were binned into groups for better understanding of the data.
 
@@ -162,9 +165,9 @@ In this experiment, SVM  was  trained and evaluated. The algorithm  was carefull
 
 
 
-RESULTS :
+# RESULTS :
 
- **ADD PICTURES**
+ 
 ![Description](./Images/stroke_prediction.png)
 
 Discussion : 
