@@ -45,9 +45,10 @@ This project aims to investigate the effectiveness of SVM Model algorithms for t
 The data used for this project was gotten from Kaggle via this link  https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data. The dataset consists of 5110 observations and 12 features that includes a binary target variable. That is, 12 independent variables will be used to predict the dependent variable. 
 
 
-# METHODOLOGY :
+# METHODOLOGY : use four model 
 
-EDA (Exploratory Data Analysis):
+* EDA (Exploratory Data Analysis)   * Random Forest  * Classification Regression  * Principal Component Analysis (PCA)
+
 
 # Process flow
  
