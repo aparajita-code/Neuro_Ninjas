@@ -2,7 +2,12 @@
 
 
 Project Proposal: Stroke Prediction Analysis
- 
+ * this is a Group project Done by:
+* Aya Fakhri
+*Kyle Goodwin
+*Aparajita Mondal
+*David Zigun
+
 Objective:
 This project aims to analyze stroke prediction data to determine the likelihood of a person having a stroke based on various factors. By leveraging statistical analysis and machine learning techniques, we seek to uncover patterns and relationships within the dataset and develop predictive models.
  
