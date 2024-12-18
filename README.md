@@ -8,6 +8,8 @@ Project Proposal: Stroke Prediction Analysis
 * Aparajita Mondal
 * David Zigun
 
+Project Proposal: Stroke Prediction Analysis
+
 Objective:
 This project aims to analyze stroke prediction data to determine the likelihood of a person having a stroke based on various factors. By leveraging statistical analysis and machine learning techniques, we seek to uncover patterns and relationships within the dataset and develop predictive models.
  
@@ -45,83 +47,18 @@ This project aims to investigate the effectiveness of SVM Model algorithms for t
 The data used for this project was gotten from Kaggle via this link  https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data. The dataset consists of 5110 observations and 12 features that includes a binary target variable. That is, 12 independent variables will be used to predict the dependent variable. 
 
 
-# METHODOLOGY : use four model 
+# METHODOLOGY :
 
-#  EDA (Exploratory Data Analysis) # Random Forest # Classification Regression # Principal Component Analysis (PCA)
+#  USE4 MACHINE LEARNING  MODEL : EDA (Exploratory Data Analysis) # Random Forest # Classification Regression # Principal Component Analysis (PCA)
 
+# Python (panda)
 
-# Process flow
- 
-![Description](./Images/Process_flow.png)
+# Python (matplotlib)
 
+# Tableu 
 
-The best way to understand the structure of a data is through visualization. This will help identify obvious errors, as well as better understand patterns within the data, detect outliers, find interesting relations among the variables. . Also, age, BMI, average glucose level were binned into groups for better understanding of the data.
-
- 
-
-![Description](./Images/Age_Stroke.png)
-
-![Description](./Images/Average_Glucose_Level_and_Stroke.png)
-
-![Description](./Images/Stroke_and_Hypertension.png)
-
-![Description](./Images/Stroke_Marital Status.png)
-
-![Description](./Images/Stroke_and_Heart_Disease.png)
-
-![Description](./Images/Stroke_Gender.png)
-
-![Description](./Images/Stroke_and_work_type.png)
-
-![Description](./Images/Stroke_and_Residence_type.png)
-
-![Description](./Images/Stroke_and_Smoking_Status.png)
-
-![Description](./Images/BMI_STROKE.png)
-
-# Observations:
-
-1. 95% of population does not prone to stroke as per the dataset .
-
-2.There are more females as compared to males.The Patients with "other" has been recatagorsed to female .This way we'll have just 2 catagories in the cloumn .
-
-3. Most of the population are healthy in terms of heart_diseas.
-
-4.More than 50% of patients works at private sector .
-
-5.With the assumption of children cannot work/never worked , we can move the instance of children  catagory to the Never_worked catagory.
-
-6. 90% of population are not hypertensive.
-
-7. we have more patients who have  married at one stage of their  life than who have not.
-
-8.we have almost equal amount of patients living in Rural and Urban areas.
 
 --------------------------------------------------------------------------
-
-Multivariate analysis was carried out between features to look for relationship, patterns between them. Some key insights gained from this analysis are listed below:
-
-2.More patients that are older than 40 years seems to have stroke with little number of patients less than 40 years having stroke
-
-3.There are two children (less than 18 years) that have stroke.
-
-4.Stroke seems to occur in patients with overweight, obesity
-
-5.Combination of patients that formerly smoked and those that smokes have stroke than those that never smoked.
-
-6.Patients with average glucose level higher than 150  tends to have stroke.
-
-7.Patients who are married at a point in their life have stroke than those that have never married.
-
-
-
-The correlation between variables was also checked using the correlation plot, and it was discovered that BMI is the least correlated with stroke, and age is the most correlated to stroke among the numerical features.
-
-
-
-![Description](./Images/correlation_matrix.png)
-
-
 
 ----------------------------------------------------------------------------------
 DATA PRE-PROCESSING
@@ -150,12 +87,6 @@ stroke
 1     174
 
 
-Resampled set distribution:
-stroke
-0    3694
-1   3150
-
-
 Feature Selection :
 
 To identify the most relevant features for training the models, we have used Correlation Coefficient,one of the Filter Methods:These methods evaluate the relevance of features based on statistical techniques before the model is trained.
@@ -164,23 +95,8 @@ Correlation Coefficient: Measures the correlation between each feature and the t
 
 
 
-MACHINE LEARNING ALGORITHMS & EVALUATION :
-
-
-In this experiment, SVM  was  trained and evaluated. The algorithm  was carefully tuned to find the  optimal parameters, aiming to achieve the best possible results. To assess the performance of the algorithm, a set of evaluation metrics was employed. These metrics include accuracy, recall, precision, f1-score.
-
-
-
 # RESULTS :
 
- 
-![Description](./Images/stroke_prediction.png)
-
-Discussion : 
-
--If you want a model with high overall accuracy, SVM_Test1(A) is your best choice.
-
--If priority is catching as many true positives as possible (high recall), go with SVM_Test2.
 
 
 FUTURE WORK:
