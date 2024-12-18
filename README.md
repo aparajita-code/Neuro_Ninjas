@@ -47,7 +47,7 @@ The data used for this project was gotten from Kaggle via this link  https://www
 
 # METHODOLOGY : use four model 
 
-* EDA (Exploratory Data Analysis)   * Random Forest  * Classification Regression  * Principal Component Analysis (PCA)
+* EDA (Exploratory Data Analysis)   *  Random Forest  *  Classification Regression  *  Principal Component Analysis (PCA)
 
 
 # Process flow
