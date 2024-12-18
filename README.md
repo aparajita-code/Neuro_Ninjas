@@ -94,7 +94,7 @@ To identify the most relevant features for training the models, we have used Cor
 Correlation Coefficient: Measures the correlation between each feature and the target variable. Features with high correlation are selected.
 
  # Result
-
+https://docs.google.com/presentation/d/1L2SDHmwxrNFOAB9Q5mgzYrTVe-fbfTqWLG0HQHyp6DU/edit#slide=id.g31f62ec8409_0_15
 
  
  # FUTURE WORK:
