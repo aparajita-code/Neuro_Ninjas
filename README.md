@@ -49,7 +49,7 @@ The data used for this project was gotten from Kaggle via this link  https://www
 
 # METHODOLOGY :
 
-#  USE4 MACHINE LEARNING  MODEL : EDA (Exploratory Data Analysis) # Random Forest # Classification Regression # Principal Component Analysis (PCA)
+#  Use 4 Machine  Learning Model: EDA (Exploratory Data Analysis) # Random Forest # Classification Regression # Principal Component Analysis (PCA)
 
 # Python (panda)
 
@@ -99,7 +99,7 @@ Correlation Coefficient: Measures the correlation between each feature and the t
 
 
 
-FUTURE WORK:
+ # FUTURE WORK:
 
 A potential future work could be to investigate the impact of other features on stroke diagnosis such as environmental factors, genetic predispositions, race, stress levels, and lifestyle habits. They could improve the performance of stroke diagnosis using machine and deep learning algorithms.
 
